@@ -15,6 +15,7 @@ Bash and PowerShell scripts I use in day-to-day sysadmin work. I clean them up a
 | [bash/wazuh-ajan-durumu.sh](bash/wazuh-ajan-durumu.sh) | Pulls all agents from the Wazuh API and lists the problematic ones. Read only. |
 | [bash/wazuh-yapilandirma-denetimi.sh](bash/wazuh-yapilandirma-denetimi.sh) | Audits a Wazuh server's configuration: manager, API, indexer, Filebeat, dashboard, services and certificates. Read only. |
 | [powershell/AD-Guvenlik-Denetimi.ps1](powershell/AD-Guvenlik-Denetimi.ps1) | General security audit for Active Directory, writes a CSV per check plus a summary. Read only. |
+| [powershell/LDAP-Imzalama-Denetimi.ps1](powershell/LDAP-Imzalama-Denetimi.ps1) | Finds clients that do unsigned LDAP binds before you enforce LDAP signing. Turns the LDAP diagnostic logging on or off on all DCs and summarises Event ID 2889 by client IP and account. Turning logging on or off changes a registry value on the DCs and only happens with -Onayla. |
 
 The messages and help text inside the scripts are in Turkish.
 
@@ -59,6 +60,7 @@ Gündelik sistem yöneticiliği işlerinde kullandığım Bash ve PowerShell scr
 | [bash/wazuh-ajan-durumu.sh](bash/wazuh-ajan-durumu.sh) | Wazuh API'sinden bütün ajanları çeker ve sorunlu olanları listeler. Salt okunur. |
 | [bash/wazuh-yapilandirma-denetimi.sh](bash/wazuh-yapilandirma-denetimi.sh) | Wazuh sunucusunun yapılandırmasını denetler: manager, API, indexer, Filebeat, dashboard, servisler ve sertifikalar. Salt okunur. |
 | [powershell/AD-Guvenlik-Denetimi.ps1](powershell/AD-Guvenlik-Denetimi.ps1) | Active Directory için genel güvenlik denetimi yapar, her kontrol için bir CSV ve bir özet çıkarır. Salt okunur. |
+| [powershell/LDAP-Imzalama-Denetimi.ps1](powershell/LDAP-Imzalama-Denetimi.ps1) | LDAP imzalamayı zorunlu yapmadan önce imzasız LDAP bind yapan istemcileri bulur. Bütün DC'lerde LDAP diagnostic logging'i açar ya da kapatır, Event ID 2889 kayıtlarını istemci IP'si ve hesap bazında özetler. Logging'i açmak ve kapatmak DC'lerde bir kayıt defteri değerini değiştirir, bu da sadece -Onayla ile olur. |
 
 ### Script çalıştırma
 
