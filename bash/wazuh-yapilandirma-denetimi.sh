@@ -81,7 +81,7 @@
 # Kullanım:
 #   sudo ./wazuh-yapilandirma-denetimi.sh
 #   sudo WAZUH_INDEXER_SIFRE='...' ./wazuh-yapilandirma-denetimi.sh -o /root/denetim
-#   sudo ./wazuh-yapilandirma-denetimi.sh -i https://10.0.0.20:9200 -U admin
+#   sudo ./wazuh-yapilandirma-denetimi.sh -i https://192.0.2.20:9200 -U admin
 #
 # Parametreler:
 #   -U, --indexer-kullanici AD  Indexer API kullanıcısı (varsayılan: admin)

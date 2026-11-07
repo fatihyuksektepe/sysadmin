@@ -22,7 +22,7 @@
 #
 # Kullanım:
 #   ./wazuh-ajan-durumu.sh -s https://wazuh.ornek.local:55000 -u wazuh
-#   WAZUH_SIFRE='...' ./wazuh-ajan-durumu.sh -s https://10.0.0.5:55000 -k -g 30
+#   WAZUH_SIFRE='...' ./wazuh-ajan-durumu.sh -s https://192.0.2.10:55000 -k -g 30
 #
 # Parametreler:
 #   -s, --sunucu URL      API adresi (varsayılan: https://localhost:55000)

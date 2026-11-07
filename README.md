@@ -10,6 +10,7 @@ Bash and PowerShell scripts I use in day-to-day sysadmin work. I clean them up a
 
 | Script | What it does |
 | --- | --- |
+| [bash/sertifika-suresi.sh](bash/sertifika-suresi.sh) | Connects to the given servers and reports how many days their TLS certificates have left. Warns about certificates that are close to expiry, already expired, issued for another name or not chained to a trusted CA. Supports STARTTLS. Read only. |
 | [bash/sunucu-saglik-ozeti.sh](bash/sunucu-saglik-ozeti.sh) | Shows a Linux server's health on one screen: disk and inode usage, memory, swap, load, failed systemd units, pending updates and pending reboot. Read only. |
 | [bash/wazuh-ajan-durumu.sh](bash/wazuh-ajan-durumu.sh) | Pulls all agents from the Wazuh API and lists the problematic ones. Read only. |
 | [bash/wazuh-yapilandirma-denetimi.sh](bash/wazuh-yapilandirma-denetimi.sh) | Audits a Wazuh server's configuration: manager, API, indexer, Filebeat, dashboard, services and certificates. Read only. |
@@ -53,6 +54,7 @@ Gündelik sistem yöneticiliği işlerinde kullandığım Bash ve PowerShell scr
 
 | Script | Ne yapar |
 | --- | --- |
+| [bash/sertifika-suresi.sh](bash/sertifika-suresi.sh) | Verilen sunuculara bağlanır ve TLS sertifikalarının bitmesine kaç gün kaldığını gösterir. Süresi yaklaşan, dolmuş, başka bir ada verilmiş ya da güvenilir bir CA'ya bağlanmayan sertifikaları uyarır. STARTTLS destekler. Salt okunur. |
 | [bash/sunucu-saglik-ozeti.sh](bash/sunucu-saglik-ozeti.sh) | Linux sunucunun durumunu tek ekranda gösterir: disk ve inode doluluğu, bellek, swap, yük, hata durumundaki systemd birimleri, bekleyen güncellemeler ve yeniden başlatma ihtiyacı. Salt okunur. |
 | [bash/wazuh-ajan-durumu.sh](bash/wazuh-ajan-durumu.sh) | Wazuh API'sinden bütün ajanları çeker ve sorunlu olanları listeler. Salt okunur. |
 | [bash/wazuh-yapilandirma-denetimi.sh](bash/wazuh-yapilandirma-denetimi.sh) | Wazuh sunucusunun yapılandırmasını denetler: manager, API, indexer, Filebeat, dashboard, servisler ve sertifikalar. Salt okunur. |
